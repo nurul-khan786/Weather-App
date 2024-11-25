@@ -1,0 +1,201 @@
+/* Reset margins and padding for all elements */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Background image for the body of the app */
+body{
+   background-image: url(weather2.png);
+}
+
+/* Centering the main container */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Outer box styling for the app */
+.outline{
+    background-image: url(silver_img.jpg); /* Background image for the outline box */
+    height: 34rem;
+    width: 25rem;
+    border-radius: 2rem 0 2rem 0; /* Rounded corners for decorative effect */
+    margin-top: 4rem; /* Margin from the top */
+}
+
+/* Header styling for the app title */
+h4{
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem; /* Space above the title */
+    color: rgb(73, 73, 73); /* Dark gray color */
+}
+
+/* Input data section styling */
+.input-data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Input box styling for location input */
+#input{
+    margin-top: 1.2rem;
+    height: 2rem;
+    width: 16rem;
+    border: 0.2rem solid rgb(73, 73, 73); /* Dark gray border */
+    border-radius: 1rem;
+}
+
+/* Weather data container with spacing adjustments */
+.weather-data{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    position: fixed; /* Fixed positioning for weather data */
+}
+
+/* Styling for temperature container (e.g., Celsius, Fahrenheit) */
+.msg-container1{
+    margin-left: 0.4rem;
+    font-weight: 600; /* Bold font for emphasis */
+}
+
+/* Inner styling for the temperature header text */
+.msg-container1 h6{
+    margin-left: 1rem;
+}
+
+/* Celsius temperature box styling */
+#temp-box1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Celsius icon styling */
+#temp-box1 img{
+    height: 1.5rem;
+    width: auto;
+    color: gray;
+    border-radius: 1rem;    
+}
+
+/* Celsius temperature text styling */
+#temp1{
+    margin-top: 0.9rem;
+    margin-left: 0.2rem;
+}
+
+/* Fahrenheit temperature box styling */
+#temp-box2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Fahrenheit icon styling */
+#temp-box2 img{
+    height: 1.5rem;
+    width: auto;
+    border-radius: 1rem;  
+}
+
+/* Fahrenheit temperature text styling */
+#temp2{
+    margin-top: 0.9rem;
+    margin-left: 0.2rem;
+}
+
+/* Container for additional weather information */
+.weather-info{
+    flex-direction: column;
+    margin-left: 9.5rem;  
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+/* 'Feels like' temperature label styling */
+#temp-feels{
+    margin-right: 1rem;
+}
+
+/* Weather icon styling */
+.temp-icon{
+    margin-right: 1rem; 
+}
+
+/* Main icon image styling */
+#icon{
+    height: 5.5rem;
+    width: auto;
+    margin-left: 8rem;
+    margin-top: 1rem;
+}
+
+/* Location text styling */
+.location{
+    margin-left: 2.5rem;
+    font-weight: 700;
+    margin-top: 8rem;
+}
+
+/* City name styling */
+#city-name{
+    margin-right: 1rem;
+    font-size: 1rem;
+    color: black;
+}
+
+/* Time text styling */
+.time{
+    margin-left: 2.5rem;
+    font-weight: 700;
+}
+
+/* City time styling */
+#city-time{
+    margin-right: 2rem;
+    font-weight: 500;
+    color: black;
+}
+
+/* Submit button styling */
+#btn{
+    color: whitesmoke;
+    background-color: rgb(82, 82, 82);
+    margin-left: 40.5%;
+    margin-top: 2rem;
+    height: 2rem;
+    width: 5rem;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+/* Hover effect for the submit button */
+#btn:hover{
+    color: goldenrod;
+    border: 0.2rem double goldenrod;   
+}
+
+/* Media query for small screens (up to 360px) */
+@media only screen and (max-width: 360px){
+    /* Smaller font size for weather information */
+    .weather-info{ 
+        font-size: 0.7rem;
+    }
+
+    /* Adjusted icon size and position */
+    #icon{
+        height: 4.5rem;
+        width: auto;
+        margin-left: 7.5rem;
+        margin-top: 1rem;
+    }
+}

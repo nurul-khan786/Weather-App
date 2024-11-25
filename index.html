@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata for the character set and viewport for responsive design -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link to the custom CSS file for styling -->
+    <link rel="stylesheet" href="weather.css" type="text/css" />
+    <title>Weather App</title>
+
+    <!-- Bootstrap CSS for layout and styling -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+          crossorigin="anonymous">  
+
+</head>
+<body>
+<!-- Main container for centering and layout -->
+<div class="container flex flex-col items-center mx-auto m-w-20">
+
+    <!-- Outline section containing the weather app content -->
+    <div class="outline">
+        <!-- Title of the Weather App -->
+        <h4>Welcome to my Weather App</h4>
+
+        <!-- Input section for user to enter their location -->
+        <div class="input-data">
+            <input type="text" placeholder="Enter Your Location" id="input" />
+        </div>
+
+        <!-- Section displaying the weather data -->
+        <div class="weather-data">
+
+            <!-- Temperature container with Celsius and Fahrenheit display -->
+            <div class="msg-container1"> 
+                <h6>Temperature</h6>
+
+                <!-- Celsius temperature display box -->
+                <div id="temp-box1">  
+                    <img src="celsius.png" alt="" /> 
+                    <p id="temp1">degree °c</p> 
+                </div>
+
+                <!-- Fahrenheit temperature display box -->
+                <div id="temp-box2"> 
+                    <img src="faren.png" alt="" /> 
+                    <p id="temp2">degree °f</p> 
+                </div>
+            </div>
+
+            <!-- Additional weather information container -->
+            <div class="weather-info">  
+                <!-- Weather description text container -->
+                <div class="msg-container2"> 
+                    <p id="weather-disc">weather description</p> 
+                </div>
+
+                <!-- 'Feels like' temperature display -->
+                <div class="temp-box3">
+                    <p id="temp-feels">feels like</p> 
+                </div>
+            </div>
+        </div>
+
+        <!-- Weather icon display for the current weather condition -->
+        <div class="temp-icon">
+            <img id="icon" /> 
+        </div>
+
+        <!-- Location display container -->
+        <div class="location"> Location:  
+            <h6 id="city-name"></h6>
+        </div>
+
+        <!-- Time display container -->
+        <div class="time"> Time:  
+            <h7 id="city-time"></h7>
+        </div>
+
+        <!-- Submit button to fetch the weather data -->
+        <button id="btn">Submit</button>
+    </div>
+</div>
+
+<!-- JavaScript files for weather functionality and Bootstrap JavaScript -->
+<script src="weather.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script> 
+</body>
+</html>
