@@ -4,24 +4,28 @@ A responsive and dynamic weather application built using **HTML**, **CSS**, and 
 
 ---
 
+## Acknowledgments
+
+I would like to thank the creators of the weather API and the various online learning resources that helped me build this project. This weather app marks an important milestone in my journey to becoming a skilled web developer.
+
 ## Features
 
 - **Real-Time Weather Updates**: Displays current weather information for any city.
 - **Search Functionality**: Allows users to search for weather details by city name.
-- **Weather Details**: Provides temperature, weather conditions, humidity, and more.
+- **Weather Details**: Provides temperature, weather conditions, and more.
 - **Responsive Design**: Works seamlessly on both desktop and mobile devices.
 
 ---
 
 ## Project Demo
 
-[Live Demo](#) <!-- Replace `#` with the link to your hosted website (e.g., GitHub Pages or another hosting service). -->
+[Live Demo](#) 
 
 ---
 
 ## Screenshot
 
-![Weather App Screenshot](screenshot.png) <!-- Replace `screenshot.png` with the path or URL to your screenshot file. -->
+![Weather App Screenshot](screenshot.png) 
 
 ---
 
@@ -41,29 +45,27 @@ A responsive and dynamic weather application built using **HTML**, **CSS**, and 
 
 ---
 
+## Skills Learned
+
+Working with APIs to fetch and display data dynamically.
+Building responsive and interactive web applications.
+Enhancing user experience with JavaScript.
+
 ## Installation
 
 To run the project locally:
 
  Clone the repository:
    ```bash
-   git clone https://github.com/your-username/weather-app.git
+   git clone https://github.com/nurul-khan786/weather-app
 
-Open the index.html file in your browser.
-## Skills Learned
-Working with APIs to fetch and display data dynamically.
-Building responsive and interactive web applications.
-Enhancing user experience with JavaScript.
+ Open the index.html file in your browser.
 
-## Future Improvements
-Add a forecast feature to show weather predictions for upcoming days.
-Include geolocation to automatically fetch weather for the user’s current location.
-Implement a dark mode for better user experience.
 
 ## Contact
+
 If you have any feedback or suggestions, feel free to reach out:
 
-Email: your-email@example.com
-GitHub: your-username
-## Acknowledgments
-This project was created as part of my learning journey in web development. Special thanks to open-source weather APIs and online tutorials for their support and guidance.
+Email: noorulk321@gmail.com
+GitHub: nurul-khan786
+
